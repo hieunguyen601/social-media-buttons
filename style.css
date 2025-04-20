@@ -1,0 +1,35 @@
+.button1 {
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 10px 20px;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button2 {
+    color: rgb(7, 70, 153);
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 2rem;
+    cursor: pointer;
+    border: 2px solid rgb(7, 70, 153);
+}
+
+.button3 {
+    color: white;
+    background-color: rgb(50, 165, 241);
+    padding: 10px 30px;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bold   ;
+}
+
+body {
+    display: flex;
+    gap: 20px;
+}
