@@ -1,3 +1,8 @@
+body {
+    display: flex;
+    gap: 20px;
+}
+
 .button1 {
     color: white;
     background-color: red;
@@ -29,7 +34,35 @@
     font-weight: bold   ;
 }
 
-body {
-    display: flex;
-    gap: 20px;
+.button4 {
+    color: white;
+    background-color: black;
+    padding: 10px 30px;
+    border: none;
+    font-size: 18px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.button5 {
+    color: black;
+    background-color: rgb(255,216,20);
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.button6 {
+    color: white;
+    background-color: rgb(121,82,179);
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
 }
